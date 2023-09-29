@@ -15,7 +15,7 @@ public class Sorting implements Comparator<Employee> {
 
         var addressCompare = o1.getAddress().compareTo(o2.getAddress());
 
-        //if nameCompare equals 0 return nameCompare, otherwise return nameCompare.
+        //if idCompare equals 0 return nameCompare, otherwise return nameCompare.
         var result = (idCompare == 0) ? nameCompare : idCompare;
 
         //if a result equals 0 return addressCompare, otherwise return result.
